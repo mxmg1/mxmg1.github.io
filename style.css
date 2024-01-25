@@ -1,8 +1,28 @@
-CSS V 0.0.1
+/* testuje czy działa */
 
-/* Color background and font */
 
+/* Background Color and font  */
 body {
-    background-color: lightbuble;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+/* Color and size of Header */
+
+header {
+    color: black;
+    font-size: 1.875vw;
+}
+
+/* Color and size of Main */
+
+main {
+    color: black;
+    margin: 0%;
+}
+
+/* Color and size of Footer */
+footer {
+    color: white;
+    text-align: center;
 }
