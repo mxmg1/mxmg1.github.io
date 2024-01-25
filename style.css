@@ -116,7 +116,7 @@ label:after {
     padding: 1rem;
     font-size: 3rem;
     height: 10rem;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     line-height: 10rem;
     top: 50%;
     transform: rotate3d(0, -50%, 0);
