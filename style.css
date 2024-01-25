@@ -107,8 +107,8 @@ label[for="2"] {
     background: #ff77;
 }
 
-label::before,
-label::after {
+label:before,
+label:after {
     color: white;
     display: block;
     background: rgba(255, 255, 255, 0.3);
@@ -123,14 +123,14 @@ label::after {
     cursor: pointer;
 }
 
-label::before{
+label:before{
     content: "\276D";
     right: 100%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
 }
 
-label::after {
+label:after {
     content: "\276C";
     left: 100%;
     border-top-right-radius: 50%;
