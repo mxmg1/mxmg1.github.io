@@ -32,3 +32,8 @@ footer {
   left: 0;
   z-index: 10;
 }
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}

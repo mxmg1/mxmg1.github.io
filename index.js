@@ -19,8 +19,3 @@ const swiper = new Swiper(".swiper", {
     el: ".swiper-scrollbar",
   },
 });
-
-.swiper {
-  width: 600px;
-  height: 300px;
-}
