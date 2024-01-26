@@ -1,6 +1,6 @@
 *{
-    background-color: bisque;
-    
+    background-color: gray;
+
 }
 
 
@@ -9,6 +9,12 @@ h1 {
     margin-left: auto ;
     margin-right: auto;
     width: 10em;
+}
+
+p {
+    margin-left: auto ;
+    margin-right: auto;
+    width: 6em;
 }
 
 /* Jak cos robimy przeskok z kalkulatora na strone */
