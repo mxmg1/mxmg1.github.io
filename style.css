@@ -1,0 +1,67 @@
+*{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+/* kontyner cos tam elo elo XDDDDDDDDDDDD te przyciski */
+.container{  
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+
+
+}
+/* ogolne ustawienie paska nawigacji */
+.navbar{
+box-shadow: 0 1px 4px rgb(146, 161, 176 / 15%);
+width: 100%;
+}
+
+/* Pierwszy upadek chrystusa  */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.navbar .menu-items{
+    display: flex;
+}
+.navbar .nav-container li{
+    list-style: none;
+}
+/* Drugi upadek chrystusta */
+.navbar .nav-container a{
+    color: chocolate; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+.navbar .nav-container a:hover{
+    font-weight: bold;
+}
+.nav-container{
+    display: block;
+    position: relative;
+    height: 50px;
+}
+/* Trzeci upadek chrystusa */
+.nav-container .checkbox{
+    position: absolute;
+    display: block;
+    height: 32px;
+    width: 32px;
+    top: 20px;
+    left: 20px;
+    z-index: 5;
+    opacity: 0;
+    cursor: pointer;
+}
+.nav-container .hamburger-lines{
+
+
+
+}
