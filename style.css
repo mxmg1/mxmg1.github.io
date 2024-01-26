@@ -144,3 +144,14 @@ body {
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
+
+/* splash screen i guess */
+
+.intro {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
