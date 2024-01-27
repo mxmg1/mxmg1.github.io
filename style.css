@@ -152,6 +152,7 @@ body {
   font-weight: 700;
   position: center;
   box-shadow: inset 0 0 2000px rgba(34, 31, 46, 255);
+  height: 14.3vh;
 }
 
 .headerbar .title {
@@ -167,9 +168,9 @@ main {
 }
 
 main .mainbar {
-  margin-top: 4.2%;
+  margin-top: 0.7%;
   background-color: rgba(36, 34, 42, 255);
-  height: 100vh;
+  height: 85.7vh;
   width: 80%;
   position: absolute;
   top: 100%;
