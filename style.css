@@ -121,7 +121,7 @@ body {
   transition: transform 0.5s ease-in-out;
   text-align: center;
   position: absolute;
-  top: -110px;
+  top: -140px;
   left: -10%;
 }
 
@@ -149,16 +149,13 @@ body {
 
 /* szósty upadek chrystusa */
 .headerbar {
-  margin-top: 0;
-  font-size: 3rem;
   font-weight: 700;
-  padding: 0.8em;
   position: center;
   box-shadow: inset 0 0 2000px rgba(34, 31, 46, 255);
 }
 
 .headerbar .title {
-  color: #ffffff;
+  display: flex;
   justify-content: center;
   align-items: flex-start;
   text-align: center;
@@ -170,7 +167,7 @@ main {
 }
 
 main .mainbar {
-  margin-top: 7.3%;
+  margin-top: 4.2%;
   background-color: rgba(36, 34, 42, 255);
   height: 100vh;
   width: 80%;
