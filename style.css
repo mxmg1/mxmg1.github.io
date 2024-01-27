@@ -92,7 +92,7 @@ body {
   height: 4px;
   width: 100%;
   border-radius: 10px;
-  background: #48434b;
+  background: #ffffff;
 }
 
 .nav-container .hamburger-lines .line1 {
@@ -117,7 +117,7 @@ body {
   transform: translate(-150%);
   display: flex;
   flex-direction: column;
-  margin-left: -40px;
+  margin-left: 0px;
   transition: transform 0.5s ease-in-out;
   text-align: center;
   position: absolute;
