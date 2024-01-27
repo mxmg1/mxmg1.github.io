@@ -14,7 +14,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "osu-api-extended": "^2.7.67",
     "osu-web.js": "^1.4.0"
   }
 }
