@@ -1,3 +1,7 @@
-import { Client } from "osu-web.js";
+import { Client, user } from "osu-web.js";
 
-const api = new Client(accessToken);
+const user = await api.users.getSelf({
+  urlParams: {
+    mode: "osu",
+  },
+});
