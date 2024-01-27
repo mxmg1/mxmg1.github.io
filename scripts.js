@@ -1,13 +1,13 @@
 import { Client } from "osu-web.js";
 
-// Client of current connection
-const Client = new Client('acces token');
+const url = new URL("https://osu.ppy.sh/api/v2/oauth/tokens/current");
 
+const headers = {
+  "Content-Type": "application/json",
+  Accept: "application/json",
+};
 
-// get a user
-
-let v2User = await Client.users.getuser(5707541{
-    urlParams: {
-        mode: 'osu'
-    }
-});
+fetch(url, {
+  method: "DELETE",
+  headers,
+}).then((response) => response.json());
