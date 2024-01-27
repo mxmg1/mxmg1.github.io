@@ -1,4 +1,4 @@
-// siódmy upadke chrystusa
+// siódmy upadek chrystusa
 import { Client } from "osu-web.js";
 
 // Client of current connection
