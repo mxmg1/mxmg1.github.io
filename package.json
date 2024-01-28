@@ -7,8 +7,9 @@
     "prettier": "3.2.4",
     "swiper": "^11.0.5"
   },
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node scripts.js"
   },
   "keywords": [],
   "author": "",
@@ -16,4 +17,5 @@
   "dependencies": {
     "osu-web.js": "^1.4.0"
   }
+  
 }
