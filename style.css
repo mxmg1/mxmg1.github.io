@@ -186,3 +186,25 @@ main .mainbar {
   left: 20px;
   font-size: 1rem;
 }
+
+
+main .mainbar .slider-wrapper{
+  position: relative;
+  max-width: 48rem;
+  margin: auto;
+}
+
+main .mainbar .slider-wrapper .slider{
+
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+}
+main .mainbar .slider-wrapper .slider .img{
+  flex: 1 0 100%;
+  scroll-snap-type: start;
+}
+
