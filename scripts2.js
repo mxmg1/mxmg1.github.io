@@ -1,5 +1,14 @@
-// siódmy upadek chrystusa
-import { Client } from "osu-web.js";
 
-// Client of current connection
-const Client = new Client('acces token');
+  function changeSlide(index) {
+    const slider = document.getElementById('slider');
+    slider.scrollTo({
+      left: index * slider.clientWidth,
+      behavior: 'smooth'
+    });
+
+    // Opcjonalnie: Zaznacz aktualny element nawigacyjny
+    const navElements = document.querySelectorAll('.slider-nav a');
+    navElements.forEach((nav, i) => {
+      nav.classList.toggle('active', i === index);
+    });
+  }
