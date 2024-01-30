@@ -18,6 +18,17 @@ body {
   overflow: hidden;
 }
 
+/* Footer general settings */
+footer {
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: #232129;
+}
+
 /* Headerbar */
 
 .headerbar {

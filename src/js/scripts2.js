@@ -28,4 +28,5 @@ document.addEventListener("DOMContentLoaded", function () {
       imagineindex = Math.min(imagineindex + 1, 2);
       changeSlide(imagineindex);
     });
-  }})
+  }
+});
