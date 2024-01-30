@@ -7,13 +7,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Body General Settings */
 
 body {
   background-color: #7e6363;
-  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   /* overflow: hidden; */

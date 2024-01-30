@@ -24,32 +24,34 @@
   <body>
     <header>
       <!-- navigation -->
-      <nav>
-        <div class="navbar">
-          <div class="container nav-container">
-            <input class="checkbox" type="checkbox" name="" id="" />
-            <div class="hamburger-lines">
-              <span class="line line1"></span>
-              <span class="line line2"></span>
-              <span class="line line3"></span>
-            </div>
-            <div class="logo">
-              <img
-                src="/assets/images/logo.png"
-                alt="Logo"
-                width="100"
-                height="100"
-              />
-            </div>
-            <div class="menu-items">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">blogs</a></li>
-              <li><a href="#">portfolio</a></li>
-              <li><a href="#">contact</a></li>
-            </div>
-          </div>
+      <input
+        id="navbar-indicator"
+        class="navbar-collapse"
+        type="checkbox"
+        checked
+      />
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img
+            src="/assets/images/logo.png"
+            alt="logo"
+            width="100"
+            height="100"
+          />
         </div>
+        <div class="navbar-left">
+          <a class="nav-link" href="#">Why you are bad?</a>
+          <a class="nav-link" href="#">Something</a>
+          <a class="nav-link" href="#">Something</a>
+          <a class="nav-link" href="#">Something</a>
+          <a class="nav-link" href="#">Something</a>
+        </div>
+
+        <div class="navbar-right">
+          <a class="nav-link" href="#">Discord</a>
+        </div>
+
+        <label class="navbar-toggler" for="navbar-indicator"> + </label>
       </nav>
     </header>
     <main></main>
