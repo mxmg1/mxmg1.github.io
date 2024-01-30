@@ -15,7 +15,7 @@
 body {
   background-color: #18171c;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 /* Footer general settings */
@@ -198,7 +198,7 @@ main {
 main .mainbar {
   margin-top: 0%;
   background-color: rgba(36, 34, 42, 255);
-  height: 85.7vh;
+  height: 200vh;
   width: 80%;
   position: absolute;
   top: 100%;
@@ -292,22 +292,20 @@ main .mainbar {
   right: -0.5rem;
 }
 
-/* things i think is useless bu keep hain it  
-
-/* .headerbar .mainbar .article {
+.article {
   color: #ffffff;
   position: absolute;
-  top: 5%;
+  margin-top: 20px;
   left: 20px;
   font-size: 1rem;
 }
-
+/* things i think is useless bu keep hain it */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 62px;
-
+}
 
 .navbar .menu-items {
   display: flex;
@@ -316,6 +314,3 @@ main .mainbar {
 .navbar .nav-container li {
   list-style: none;
 }
-
-
-*/
