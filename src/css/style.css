@@ -15,19 +15,23 @@
 body {
   background-color: #18171c;
   font-family: "Poppins", sans-serif;
+  min-height: 200vh;
+  display: flex;
+  flex-direction: column;
   /* overflow: hidden; */
 }
 
 /* Footer general settings */
-/* footer {
+footer {
   text-align: center;
   padding: 20px;
-  position: fixed;
-  bottom: 0;
   width: 100%;
+  margin: auto 0;
   color: #fff;
   background-color: #221f2e;
-} */
+  position: relative;
+  top: 200vh;
+}
 
 /* Headerbar */
 
@@ -198,7 +202,7 @@ main {
 main .mainbar {
   margin-top: 0%;
   background-color: rgba(36, 34, 42, 255);
-  height: 200vh;
+  height: 290vh;
   width: 80%;
   position: absolute;
   top: 100%;
