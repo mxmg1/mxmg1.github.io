@@ -27,7 +27,7 @@ Explore Osu! Odyssey by visiting the [Osu! Odyssey Website](https://mxmg1.github
 Connect with the Osu! Odyssey community for assistance, discussions, and updates:
 
 - **Discord Server:** [Osu! Odyssey Discord](https://discord.gg/osuodyssey)
-- **Community Forums:** [Osu! Odyssey Forums](pewnie post na forum osu w przyszłości na pl chyba że przepiszę stronę na angielską)
+- **Community Forums:** [Osu! Forum post thread](pewnie post na forum osu w przyszłości na pl chyba że przepiszę stronę na angielską)
 
 ## License
 
