@@ -28,18 +28,4 @@ document.addEventListener("DOMContentLoaded", function () {
       imagineindex = Math.min(imagineindex + 1, 2);
       changeSlide(imagineindex);
     });
-
-    // Dodaj obsługę klawiatury
-    document.addEventListener("keydown", function (event) {
-      if (event.key === "ArrowLeft") {
-        imagineindex = Math.max(imagineindex - 1, 0);
-        changeSlide(imagineindex);
-      } else if (event.key === "ArrowRight") {
-        imagineindex = Math.min(imagineindex + 1, 2);
-        changeSlide(imagineindex);
-      }
-    });
-  } else {
-    console.error("Nie udało się znaleźć elementów dla strzałek.");
-  }
-});
+  }})
