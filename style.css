@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
 
 * {
   margin: 0;
@@ -225,19 +227,38 @@ main .mainbar {
 }
 
 .slider-nav a {
-  width: 0.5rem;
-  height: 0.5rem;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.75;
-  transition: opacity ease 250ms;
+  transition: opacity ease 250ms, background-color ease 250ms; 
 }
 
-.slider-nav a:hover {
+.slider-nav a.active {
+  background-color: #ffffff; 
   opacity: 1;
 }
 
-/* Ukryj suwak poziomy */
 .slider-wrapper::-webkit-scrollbar {
   display: none;
+}
+
+.controls .arrow {
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+  color: #fff;
+}
+
+.controls .arrow i {
+  font-size: 7rem;
+}
+
+.left {
+  left: -0.5rem;
+}
+
+.right {
+  right: -0.5rem;
 }
