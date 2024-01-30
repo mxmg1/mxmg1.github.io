@@ -13,28 +13,9 @@
 /* Body General Settings */
 
 body {
-  background-color: #18171c;
+  background-color: #7e6363;
   font-family: "Poppins", sans-serif;
-  min-height: 200vh;
   display: flex;
   flex-direction: column;
   /* overflow: hidden; */
-}
-
-/* Main General Settings */
-main {
-  position: relative;
-  z-index: -1;
-}
-
-/* Footer General Settings */
-footer {
-  text-align: center;
-  padding: 20px;
-  width: 100%;
-  margin: auto 0;
-  color: #fff;
-  background-color: #221f2e;
-  position: relative;
-  top: 200vh;
 }
