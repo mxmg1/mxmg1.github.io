@@ -183,7 +183,7 @@ footer {
 
 .mainbar .mainbar-title {
   padding-top: 1%;
-  text-align: center;
+  margin-left: 2.5%;
 }
 
 .mainbar .mainbar-title h1 {
@@ -210,7 +210,10 @@ main .mainbar {
 /* Slider Section */
 
 .container-slider {
+  position: absolute;
   padding: 2rem;
+  left: 2.5%;
+  
 }
 
 .slider-wrapper {
