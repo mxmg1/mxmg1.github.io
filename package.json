@@ -4,8 +4,7 @@
   "description": "��#\u0000 \u0000-\u0000m\u0000x\u0000m\u0000g\u00001\u0000.\u0000g\u0000i\u0000t\u0000h\u0000u\u0000b\u0000.\u0000i\u0000o\u0000\r\u0000 \u0000#\u0000 \u0000m\u0000x\u0000m\u0000g\u00001\u0000.\u0000g\u0000i\u0000t\u0000h\u0000u\u0000b\u0000.\u0000i\u0000o\u0000\r\u0000 \u0000",
   "main": "index.js",
   "devDependencies": {
-    "prettier": "3.2.4",
-    "swiper": "^11.0.5"
+    "prettier": "3.2.4"
   },
   "type": "module",
   "scripts": {
@@ -17,5 +16,4 @@
   "dependencies": {
     "osu-web.js": "^1.4.0"
   }
-  
 }
