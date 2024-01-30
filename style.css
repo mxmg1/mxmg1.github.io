@@ -232,11 +232,13 @@ main .mainbar {
   border-radius: 50%;
   background-color: #fff;
   opacity: 0.75;
-  transition: opacity ease 250ms, background-color ease 250ms; 
+  transition:
+    opacity ease 250ms,
+    background-color ease 250ms;
 }
 
 .slider-nav a.active {
-  background-color: #ffffff; 
+  background-color: #ffffff;
   opacity: 1;
 }
 
@@ -248,11 +250,15 @@ main .mainbar {
   position: absolute;
   top: 40%;
   cursor: pointer;
-  color: #fff;
+  color: #c7c7c7;
 }
 
 .controls .arrow i {
   font-size: 7rem;
+}
+
+.controls .arrow i:hover {
+  font-weight: bolder;
 }
 
 .left {
