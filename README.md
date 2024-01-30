@@ -9,8 +9,6 @@ Osu! Odyssey is a project dedicated to assisting novice players in their journey
 ### Key Features (in development)
 
 - **Guides and Tutorials:** Access comprehensive guides and tutorials tailored for beginners.
-- **Progress Tracking:** Keep track of your progress and set personalized goals.
-- **Community Forums:** Connect with other players, ask questions, and share experiences.
 - **Interactive Challenges:** Engage in challenges designed to improve specific skills.
 - **Resource Library:** Access a curated library of Osu! resources and tools.
 
