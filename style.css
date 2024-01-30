@@ -151,6 +151,16 @@ body {
 }
 
 /* szósty upadek chrystusa */
+
+.mainbar .mainbar-title {
+  padding-top: 1%;
+  text-align: center;
+}
+
+.mainbar .mainbar-title h1 {
+  color: #ffffff;
+}
+
 .headerbar {
   font-weight: 700;
   position: center;
