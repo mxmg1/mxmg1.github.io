@@ -19,7 +19,7 @@ body {
 }
 
 /* Footer general settings */
-footer {
+/* footer {
   text-align: center;
   padding: 20px;
   position: fixed;
@@ -27,7 +27,7 @@ footer {
   width: 100%;
   color: #fff;
   background-color: #221f2e;
-}
+} */
 
 /* Headerbar */
 
@@ -213,7 +213,6 @@ main .mainbar {
   position: absolute;
   padding: 2rem;
   left: 2.5%;
-  
 }
 
 .slider-wrapper {
