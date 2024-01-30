@@ -18,7 +18,7 @@ body {
   overflow: hidden;
 }
 
-/* headerbar */
+/* Headerbar */
 
 .headerbar {
   font-weight: 700;
@@ -36,12 +36,11 @@ body {
 
 .headerbar .title img {
   max-width: 100%;
-
   width: 7.5%;
   height: 7.5%;
 }
 
-/* / navigation bar hamburger sizing  / */
+/* / Navigation Bar Hamburger Sizing  / */
 
 .container {
   max-width: 1050px;
@@ -49,13 +48,15 @@ body {
   margin: auto;
 }
 
-/* / width of hamburger / */
+/* / Width Of Hamburger / */
 
 .navbar {
-  width: 25%;
+  display: flex;
+  align-items: center;
+  width: 35%;
 }
 
-/* / Navbar options style /  */
+/* / Navbar Options Style /  */
 
 .navbar .nav-container a {
   text-decoration: none;
@@ -65,8 +66,9 @@ body {
   padding: 0.7rem;
 }
 
+/* Navigation Container */
 .nav-container {
-  display: block;
+  display: flex;
   position: relative;
   height: 60px;
 }
@@ -75,28 +77,28 @@ body {
   font-weight: bolder;
 }
 
-/* / Button for hamburger / */
+/* / Button Sizing For Hamburger / */
 
 .nav-container .checkbox {
   position: absolute;
   display: block;
-  height: 40px;
-  width: 50px;
-  top: -58px;
-  left: 20px;
+  height: 60px;
+  width: 65px;
+  top: -90px;
+  left: 22px;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
 }
 
-/* style for hamburger */
+/* Style For Hamburger */
 
 .nav-container .hamburger-lines {
   display: block;
   height: 40px;
   width: 50px;
   position: absolute;
-  top: -4.5rem;
+  top: -5.5rem;
   left: 1.875rem;
   z-index: 2;
   display: flex;
@@ -126,6 +128,8 @@ body {
   transition: transform 0.4s ease-in-out;
 }
 
+/* Navigation Bar Menu Items */
+
 .navbar .menu-items {
   padding-top: 150px;
   background-color: #232129;
@@ -138,7 +142,7 @@ body {
   transition: transform 0.5s ease-in-out;
   text-align: center;
   position: absolute;
-  top: -110px;
+  top: -150px;
   left: -10%;
 }
 
@@ -164,7 +168,7 @@ body {
   transform: rotate(-45deg);
 }
 
-/* szósty upadek chrystusa */
+/* Main Bar */
 
 .mainbar .mainbar-title {
   padding-top: 1%;
@@ -191,6 +195,8 @@ main .mainbar {
   transform: translateX(-50%);
   z-index: -1;
 }
+
+/* Slider Section */
 
 .container-slider {
   padding: 2rem;
@@ -247,6 +253,8 @@ main .mainbar {
 .slider-wrapper::-webkit-scrollbar {
   display: none;
 }
+
+/* Slider Controls */
 
 .controls .arrow {
   position: absolute;
