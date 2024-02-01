@@ -1,3 +1,5 @@
 {
-  "cSpell.language": "en,pl"
+	"cSpell.language": "en,pl",
+	"editor.fontFamily": "Fira Code",
+	"editor.fontLigatures": true
 }

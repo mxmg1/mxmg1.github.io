@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+
+/* general settings */
+* {
+	font-family: 'Poppins';
+	background-color: #0d1821;
+}
+
+/* Body General Settings */
+
+body {
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#buttons {
+	background-color: #344966;
+	color: #fff;
+	height: 100%;
+	width: 200px;
+	box-sizing: border-box;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+}
+
+#buttons a {
+	text-align: center;
+	display: block;
+	padding: 10px;
+	text-decoration: none;
+	background-color: #344966;
+	color: #fff;
+}
+
+#buttons a:hover {
+	color: #0d1821;
+	background-color: #f0f4ef;
+}
+
+#buttons h1 {
+	background-color: #344966;
+	color: #fff;
+	text-align: center;
+}
