@@ -14,22 +14,25 @@
 
 body {
   background-color: #7e6363;
-  display: flex;
-  flex-direction: column;
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  /* display: flex;
+  flex-direction: column; */
   /* overflow: hidden; */
 }
 
 .MCB {
   position: absolute;
   top: auto;
-  background-color: #A87C7C;
+  background-color: #a87c7c;
   width: 69.8%;
   height: 100rem;
   margin-left: 15%;
-
 }
 
-.MCBTitle{
+.MCBTitle {
   color: white;
   position: absolute;
   margin-top: 25%;
@@ -39,6 +42,6 @@ body {
   font-weight: 700;
 }
 
-.MCBTitle:hover{
+.MCBTitle:hover {
   color: LightGray;
 }

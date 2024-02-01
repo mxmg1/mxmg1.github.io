@@ -1,11 +1,9 @@
 /* heder settings */
 
-/* header {
+header {
   height: 70px;
   background-color: #3e3232;
-  position: fixed;
-  width: 100%;
-} */
+}
 .navbar {
   position: relative;
 
